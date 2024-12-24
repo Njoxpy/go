@@ -1,0 +1,30 @@
+# Ignore the Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore the Go build directory
+bin/
+
+# Ignore Go modules and vendor directories
+/vendor/
+# Ignore Go module cache (for Go 1.11+)
+.go-build/
+.gopath/
+
+# Ignore the Go test result files
+*.test
+
+# Ignore IDE specific files (for example, VS Code, JetBrains)
+.vscode/
+.idea/
+
+# Ignore editor backup files
+*~
+*.swp
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
