@@ -4,6 +4,9 @@ import (
 	"fmt"
 )
 
-func main({
-	fmt.Println("bro code!")
+func main(){
+	name := "Njox"
+	jina := &name
+
+	fmt.Println(jina)
 }
